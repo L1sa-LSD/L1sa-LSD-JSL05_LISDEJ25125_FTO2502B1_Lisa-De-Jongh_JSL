@@ -407,6 +407,7 @@ form select {
 /* ===============
    Adding the Task Button and making it responsive
 ================ */
+/*The adding id is for the button, adding the css styling to make it look identical */
 #adding{
    color: white;
    background-color: #635fc7;
@@ -418,7 +419,7 @@ form select {
    text-align:center;
 
 }
-
+/*This is the responsiveness for the button so when it recaches a specific size the words disapear*/
 @media (max-width : 420px){
     .remainder{
         display: none;
@@ -427,6 +428,7 @@ form select {
 
 /* ===============
    Stying the Modal 
+the styling of the modal is identical to the other modal so by using the same code however changing the css for the last button
 ================ */
 #add-task-modal::backdrop {
   background: rgba(0, 0, 0, 0.3);
@@ -508,7 +510,7 @@ form select {
   background-size: 1.4rem;
   padding-right: 1rem;
 }
-
+/*The create button */
 #save-task-btn{
    color: white;
    background-color: #635fc7;
